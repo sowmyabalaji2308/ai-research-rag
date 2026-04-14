@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-groq
+chromadb
+pymupdf
+tiktoken
+sentence-transformers
+fastapi
+uvicorn
+streamlit
+rank-bm25
+pandas
+pyngrok
+nest-asyncio
