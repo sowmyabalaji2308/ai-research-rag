@@ -1,0 +1,11 @@
+question,answer,faithfulness,keyword_score,citation_score,latency,tokens,keywords_missed
+What is LoRA?,LoRA (Low-Rank Adaptation) is a method for adapting pre-trained language models to downstream tasks ...,0.88,0.75,1.0,0.52,1346,['trainable']
+How does LoRA reduce trainable parameters?,LoRA reduces trainable parameters by injecting trainable rank decomposition matrices into each layer...,0.88,0.75,1.0,0.63,1435,['subset']
+What is the attention mechanism?,"The attention mechanism is a method used in deep learning models, particularly in the Transformer ar...",1.0,1.0,1.0,0.45,1321,[]
+What is multi-head attention?,"Multi-head attention is a sub-layer in the Transformer model's encoder, which is a multi-head self-a...",0.75,0.5,1.0,1.43,1327,"['parallel', 'output']"
+What is Retrieval Augmented Generation?,Retrieval Augmented Generation (RAG) is a unified architecture that learns to retrieve relevant info...,0.75,0.5,1.0,14.88,1394,"['parametric', 'memory']"
+What datasets were used to evaluate RAG?,"We used CuratedTrec and TriviaQA datasets to evaluate RAG [source: rag.pdf, Page: 17]....",0.62,0.25,1.0,12.45,1083,"['open', 'domain', 'task']"
+How does LoRA compare to full fine-tuning?,LoRA roughly recovers the expressiveness of full fine-tuning by setting the LoRA rank r to the rank ...,0.88,0.75,1.0,13.52,1374,['performance']
+What is dot-product attention?,Dot-product attention is a type of attention function that computes the compatibility function using...,0.88,0.75,1.0,13.5,1366,['softmax']
+What is the transformer architecture?,"The Transformer architecture is a 4-layer model with dmodel = 1024, used for English constituency pa...",0.75,0.5,1.0,15.73,1377,"['encoder', 'decoder']"
+How does RAG use non-parametric memory?,"RAG uses non-parametric memory as a dense vector index of Wikipedia, accessed with a pre-trained neu...",1.0,1.0,1.0,13.76,1430,[]
