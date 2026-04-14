@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "rag_citation_prompt",
+  "template": "You are a research assistant. Answer using ONLY the context below.\nBe concise \u2014 maximum 5 sentences.\nCite sources inline like [source: filename, page X].\nIf the answer isn't in the context, say \"I don't know.\"\n\nContext:\n{context}\n\nQuestion: {question}\n\nConcise answer:",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 512,
+  "temperature": 0,
+  "retriever": "hybrid",
+  "top_k": 5
+}
